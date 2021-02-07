@@ -87,6 +87,60 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+
+ul,
+ol {
+  list-style-type: none;
+
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+}
+
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif
+  font-size: 1.87em;
+  margin: 20px 0;
+}
+
+p {
+  font-size: .875em;
+  line-height: 1.5em;
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+  font-style: normal;
+
+}
+
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -131,7 +185,7 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  list-style: 
+  text-transform: uppercase;
 }
 
 
@@ -151,22 +205,11 @@ aside {
   justify-content: center;
   align-items: center;
   flex-wrap: row wrap;
+  background-color: #cf4327;
 }
 
-.form-descripton {
-  
-}
 
-.form {
-  display: flex;
-  justify-content: left;
-  align-items: left;
-  flex-flow: row wrap;
-}
 
-.form-button {
-  flex-flow: row wrap;
-}
 /*--features seciton--*/
 
 .features {
@@ -178,6 +221,7 @@ aside {
 
 .features h2 {
   margin-bottom: 60px;
+
 }
 
 .features article {
@@ -204,6 +248,7 @@ aside {
    display: flex;
    justify-content: center;
    flex-flow: row wrap;
+   background-color: #cf4327;
 }
 
 .events h2 {
@@ -214,7 +259,6 @@ aside {
   width: 55%;
   margin: 20px 0;
 }
-
 
 .button {
    display: flex;
@@ -229,6 +273,8 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  line-height: 1.5em;
+  background-color: #cf4327;
 }
 
 
@@ -237,10 +283,12 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #cf4327;
 }
 
 .contact-content p {
   margin: 0;
+  font-style: normal;
 }
 
 /* Mobile styles-faq page */
@@ -250,6 +298,7 @@ aside {
   justify-content: center;
   align-items: cente;
   flex-flow: row wrap;
+  background-color: #cf4327;
 }
 
  .faq .content-wrapper {
@@ -271,21 +320,25 @@ aside {
 /* footer section */
 
 footer {
-  flex-direction: column;
+flex-direction: column;
 }
 
 footer p {
-  margin: 0;
+margin: 0;
+font-style: normal;
 }
 
 footer .content-wrapper {
-  width: 55%;
-  margin: 50px 0;
+width: 55%;
+margin: 50px 0;
 }
 
 
 footer .contact {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
+  line-height: 1.5em;
+  text-align: center;
+
 }
 
 footer .social-icons {
@@ -302,6 +355,8 @@ footer .social-icons p {
 
 footer .copyright {
   margin: 20px 0;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 
@@ -564,16 +619,12 @@ aside .content-wrapper {
   /*Features*/
 
   .features h2 {
-    width: 40%;
+    width: 75%;
   }
 
   .features article {
     flex-basis: 33%;
   }
-
-.features p {
-  height: 
-}
  
   /*evetns*/
 
