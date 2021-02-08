@@ -244,27 +244,16 @@ aside {
 
 /* events section */
 
+
 .events {
    display: flex;
    justify-content: center;
+   align-items: center;
    flex-flow: row wrap;
    background-color: #cf4327;
 }
 
-.events h2 {
-  margin-bottom: 40px;
-}
 
-.events h3 {
-  width: 55%;
-  margin: 20px 0;
-}
-
-.button {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
 
 /* Mobile styles-about page */
 
@@ -359,9 +348,31 @@ footer .copyright {
   text-transform: capitalize;
 }
 
-
-
-
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #26231f;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 /* ==========================================================================
    Helper classes
@@ -629,7 +640,8 @@ aside .content-wrapper {
   /*evetns*/
 
   .events article div {
-    width: 42%;
+  width: 100%;
+  text-align: center;
   }
 
     /* ==========================================================================
