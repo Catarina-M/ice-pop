@@ -90,6 +90,7 @@ textarea {
 
 html {
   font-size: 16px;
+  color: #fff;
 }
 
 body {
@@ -105,7 +106,7 @@ ol {
 }
 
 a {
-  color: #e2e3ed;
+  color: #2b2b2b;
   text-decoration: none;
 
 }
@@ -128,11 +129,11 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -168,24 +169,41 @@ header .content-wrapper {
   margin: 0;
 }
 
-.header-divider {
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding-top: 20px;
+}
+
+
+.header-divider { 
+  height: 1px;
   width: 100%;
   margin: 10px 0 20px 0;
 }
 
 header nav {
+  width: 60%;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  width: 60%;
 }
 
 header nav ul {
+  width: 100%;
   display: flex;
   justify-content: space-around;
-  width: 100%;
-  text-transform: uppercase;
+}
+
+header nav ul li {
+  font-size: 1.125em;
 }
 
 
@@ -197,6 +215,9 @@ header nav ul {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url(../img/hero-img.jpg) center;
+  background-size: cover;
+  min-height: 500px;
 }
 
 
@@ -216,7 +237,9 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-
+  background: url(../img/popsicle.jpg) center;
+  background-size: cover;
+  color: #2b2b2b;
 }
 
 .features h2 {
@@ -309,21 +332,23 @@ aside {
 /* footer section */
 
 footer {
-flex-direction: column;
+  flex-direction: column;
+  color: #2b2b2b;
 }
 
 footer p {
-margin: 0;
-font-style: normal;
+  margin: 0;
+  font-style: normal;
 }
 
 footer .content-wrapper {
-width: 55%;
-margin: 50px 0;
+  width: 55%;
+  margin: 50px 0;
 }
 
 
-footer .contact {
+footer .contact,
+.social {
   margin-bottom: 50px;
   line-height: 1.5em;
   text-align: center;
@@ -493,6 +518,12 @@ header nav {
       display: none;
     }
 
+header figure {
+  width: 30%;
+  padding: 0;
+
+}
+
         /* Hero Area */
   
     /* Aside */
@@ -526,14 +557,10 @@ aside .content-wrapper {
 
 /*events*/
 
- .events article {
-      display: flex;
-      justify-content: space-between;
-    }
-  
-    .events article div {
-      width: 50%;
-    }
+.events article div {
+  width: 100%;
+  text-align: center;
+  }
 
 /*footer*/
 
@@ -616,6 +643,9 @@ header .content-wrapper {
   width: 60%;
 }
 
+header figure {
+  width: 30%;
+}
 /*Aside*/
 
 aside .content-wrapper {
