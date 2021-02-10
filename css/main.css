@@ -249,7 +249,7 @@ aside {
 .features article {
     width: 63%;
     margin: 30px 0;
-
+    text-align: center;
 }
 
 .features .features-items {
@@ -257,20 +257,19 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+
 }
 
 .features p {
   margin: 0;
 }
 
-.features-item-description {
-    text-align: center;
-  }
 
 .features i {
   font-size: 3.75em;
   margin-bottom: 40px;
-  padding-left: 1em;
+  padding-left: 2em;
+
 }
 
 /* events section */
