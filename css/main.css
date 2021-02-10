@@ -141,12 +141,6 @@ address {
 
 }
 
-.features i {
-  font-size: 3.75em;
-  margin-bottom: 40px;
-  padding-left: 1em;
-}
-
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -273,6 +267,11 @@ aside {
     text-align: center;
   }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+  padding-left: 1em;
+}
 
 /* events section */
 
@@ -389,6 +388,11 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .social-icons p i {
+  color: #cf4327;
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -519,6 +523,16 @@ input[type=button] {
       max-width: 640px;
       margin: 100px 0;
     }
+
+h2 {
+    font-size: 2.25em;
+    line-height: 1.333;
+  }
+
+h3 {
+      font-size: 1.5em;
+      line-height: 1.25;
+  }
   
     /* Header */
 header {
@@ -611,6 +625,12 @@ footer .copyright {
   width: 100%;
 }
 
+footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+    padding-top: 15%;
+  }
+
 
     /* ==========================================================================
      About Page
@@ -663,6 +683,20 @@ footer .copyright {
 
  .content-wrapper {
     max-width: 960px;
+  }
+
+  h2 {
+    font-size: 2.25em;
+  }
+
+  h3,
+  h4 {
+      font-size: 1.875em;
+  }
+
+  p {
+      font-size: 1.125em;
+      line-height: 1.333;
   }
 
     /* Header */
