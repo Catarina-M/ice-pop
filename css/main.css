@@ -622,6 +622,10 @@ footer .copyright {
       justify-content: space-between;
       align-items: flex-start;
     }
+.map figure {
+  padding-bottom: 45.5%;
+  
+}
   
     /* ==========================================================================
      FAQ Page
@@ -655,7 +659,8 @@ header .content-wrapper {
     }
 
 .hero-area h1 {
-  width: 60%;
+  width: 80%;
+  font-size: 3.75em;
 }
 
 header figure {
@@ -689,6 +694,10 @@ aside .content-wrapper {
   text-align: center;
   }
 
+  footer h4 {
+    font-size: 1.875em;
+  }
+
     /* ==========================================================================
   About Page
   ========================================================================== */
@@ -697,6 +706,15 @@ aside .content-wrapper {
   .contact-section .content-wrapper h2 {
       width: 95%;
   }
+
+  .map figure {
+  padding-bottom: 37.5%;
+  
+}
+
+.contact-content h4 {
+  font-size: 1.875em;
+}
 
   /* ==========================================================================
   FAQ Page
