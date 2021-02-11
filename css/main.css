@@ -102,7 +102,8 @@ body {
 ul,
 ol {
   list-style-type: none;
-
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -114,6 +115,8 @@ a {
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
+  margin: 0;
+  font-weight: 500;
 }
 
 h3,
@@ -121,6 +124,7 @@ h4 {
   font-family: 'Poppins', sans-serif
   font-size: 1.87em;
   margin: 20px 0;
+  font-weight: 500;
 }
 
 p {
@@ -205,7 +209,6 @@ header nav ul li {
   font-size: 1.125em;
 }
 
-
 /* Mobile styles-Homepage */
 
 /*--hero section--*/
@@ -268,7 +271,7 @@ aside {
 .features i {
   font-size: 3.75em;
   margin-bottom: 40px;
-  padding-left: 2em;
+  align-items: center;
 
 }
 
@@ -283,6 +286,10 @@ aside {
    background-color: #cf4327;
 }
 
+.events article div {
+  width: 100%;
+  text-align: center;
+  }
 
 
 /* Mobile styles-about page */
@@ -547,9 +554,6 @@ header .content-wrapper {
 header nav {
       width: 20%;
     }
-   header nav ul {
-      justify-content: space-between;
-    }
   
 .header-divider {
       display: none;
@@ -557,12 +561,24 @@ header nav {
 
 header figure {
   width: 30%;
-  padding: 0;
-
 }
 
+ header nav ul {
+    justify-content: space-between;
+
+  }
+
         /* Hero Area */
-  
+
+.hero-area {
+    min-height: 600px;
+  }  
+
+.hero-area h1 {
+    font-size: 3em;
+    line-height: 1;
+    margin: 0;
+}
     /* Aside */
 
 aside .content-wrapper .form-description,
@@ -595,13 +611,6 @@ aside .content-wrapper {
 .features i {
   padding: 0;
 }
-
-/*events*/
-
-.events article div {
-  width: 100%;
-  text-align: center;
-  }
 
 /*footer*/
 
@@ -737,12 +746,8 @@ aside .content-wrapper {
   padding: 0;
 }
  
-  /*evetns*/
-
-  .events article div {
-  width: 100%;
-  text-align: center;
-  }
+ /*footer*/
+ 
 
   footer h4 {
     font-size: 1.875em;
